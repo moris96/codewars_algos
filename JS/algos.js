@@ -21,3 +21,17 @@
 //     return Math.pow(Math.round(Math.sqrt(n)), 2)
 // }
 // console.log(nearestSq(115))
+
+
+// convert string to camel case 
+// function toCamelCase(str){
+//     const regEx = /[-_]\w/ig
+//     return str.replace(regEx,(i) => {
+//         return i[1].toUpperCase() 
+//      })
+// };
+// console.log(toCamelCase('the_stealth_warrior'))
+// console.log(toCamelCase('The_Stealth_Warrior'))
+// console.log(toCamelCase('The_Stealth-Warrior'))
+
+
