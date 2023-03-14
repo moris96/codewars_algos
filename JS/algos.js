@@ -35,3 +35,8 @@
 // console.log(toCamelCase('The_Stealth-Warrior'))
 
 
+//remove string spaces
+// function noSpace(x){
+//     return x.split(' ').join('')
+// }
+// console.log(noSpace('hello there'))
