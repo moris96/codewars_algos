@@ -40,3 +40,18 @@
 //     return x.split(' ').join('')
 // }
 // console.log(noSpace('hello there'))
+
+
+//hyperfactorial in JS
+// function hyperfact(num){
+//     let res = 1;
+//     const mod = 1000000007;
+//     for(let i=1; i<=num; i++){
+//         for(let j=1; j<=i; j++){
+//             res *= i
+//         }
+//     }
+//     return res % mod    
+// }
+// console.log(hyperfact(6))
+
