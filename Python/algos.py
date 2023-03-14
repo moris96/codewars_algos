@@ -20,7 +20,7 @@ import math
 
 #  % 1000000007
 
-#factorial ---- the codewars challenge is broken lol so stupid why even have it up there 
+#factorial ---- the codewars challenge is broken since I have the right answer lmao
 def factorial(n):
     if n<0:
         return -1
