@@ -70,3 +70,9 @@
 //     else return(n*factorial(n-1))
 // }
 // console.log(factorial(5))
+
+
+//Chuck Norris VII - True or False?
+// function ifChuckSaysSo(){
+//     return !true 
+// };

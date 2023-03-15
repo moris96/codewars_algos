@@ -21,14 +21,33 @@ import math
 #  % 1000000007
 
 #factorial ---- the codewars challenge is broken since I have the right answer lmao
-def factorial(n):
-    if n<0:
-        return -1
-    elif n==0:
-        return 1
-    else:
-        return (n*factorial(n-1))
-print(factorial(5)) #120
-print(factorial(1)) #1
-print(factorial(0)) #1
-print(factorial(-5)) #-1
+# def factorial(n):
+#     if n<0:
+#         return -1
+#     elif n==0:
+#         return 1
+#     else:
+#         return (n*factorial(n-1))
+# print(factorial(5)) 
+# print(factorial(1)) 
+# print(factorial(0)) 
+# print(factorial(-5)) 
+
+
+#longest palindrome length
+# def longest_palindrome(s):
+#     l = 0
+#     for i in range(1, len(s)+1):
+#         for j in range(0, len(s) - i+1):
+#             w = s[j: j+i]
+#             if w == w[::-1]:
+#                 l = i 
+#     return l 
+
+# print(longest_palindrome("aaaa"))
+
+
+#Chuck Norris VII - True or False?
+# def if_chuck_says_so():
+#     return not True 
+    
