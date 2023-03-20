@@ -60,3 +60,19 @@ import math
     # elif n==2: return 1
     # else: return nth_fib(n-1) + nth_fib(n-2)
 
+
+#hex to decimal 
+# def hex_to_dec(s):
+#     return int(s, 16)
+# print(hex_to_dec('a'))
+
+
+#bin to decimal
+# def bin_to_decimal(inp):
+#     return int(inp, 2)
+
+
+#find out whether the shape is a cube 
+# def cube_checker(volume, side):
+#     return pow(side, 3) == volume and side > 0 
+# print(cube_checker(-12, 2)) 
