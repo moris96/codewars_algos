@@ -87,3 +87,6 @@ import math
 #     return sum 
 
 
+#remove string spaces
+# def no_space(x):
+#     return x.replace(" ", "")
