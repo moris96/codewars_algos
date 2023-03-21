@@ -76,3 +76,14 @@ import math
 # def cube_checker(volume, side):
 #     return pow(side, 3) == volume and side > 0 
 # print(cube_checker(-12, 2)) 
+
+
+#multiples of 3 or 5 
+# def solution(number):
+#     sum = 0 
+#     for i in range(number):
+#         if (i%3==0) or (i%5==0):
+#             sum += i 
+#     return sum 
+
+
