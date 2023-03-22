@@ -90,3 +90,19 @@ import math
 #remove string spaces
 # def no_space(x):
 #     return x.replace(" ", "")
+
+
+#pythagorean triples 
+# def pythagorean_triple(integers):
+#     a = integers[0]
+#     b = integers[1]
+#     c = integers[2]
+#     aSq = a*a 
+#     bSq = b*b 
+#     cSq = c*c 
+#     if (aSq + bSq == cSq): return True 
+#     elif (bSq + cSq == aSq): return True 
+#     elif (aSq + cSq == bSq): return True 
+#     else: return False 
+
+

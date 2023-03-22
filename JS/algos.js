@@ -88,3 +88,18 @@
 // console.log(nthFibo(10))
 
 
+//pythagorean triples 
+// function isPythagoreanTriple(integers) {
+//     let a = integers[0]
+//     let b = integers[1]
+//     let c = integers[2]
+//     let aSq = a*a 
+//     let bSq = b*b 
+//     let cSq = c*c 
+//     if(aSq + bSq == cSq) return true 
+//     else if(bSq + cSq == aSq) return true 
+//     else if(aSq + cSq == bSq) return true 
+//     else return false 
+// }
+
+
