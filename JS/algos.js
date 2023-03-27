@@ -103,3 +103,15 @@
 // }
 
 
+//sum of odd numbers 
+// function rowSumOddNumbers(n) {
+// 	return n*n*n
+// }
+// console.log(rowSumOddNumbers(2))
+
+
+//sum of digits/digital root (16: 1+6=7) (942: 9+4+2=15 --> 1+5=6)
+// function digitalRoot(n) {
+//     return (n-1) % 9 + 1
+// }
+// console.log(digitalRoot(942))

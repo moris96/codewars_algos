@@ -106,3 +106,15 @@ import math
 #     else: return False 
 
 
+#sum of odd numbers
+# def row_sum_odd_numbers(n):
+#     return n*n*n 
+# print(row_sum_odd_numbers(2)) 
+
+
+# #sum of digits/digital root (16: 1+6=7) (942: 9+4+2=15 --> 1+5=6)
+# def digital_root(n):
+#     while n>=10:
+#         n = sum(int(i) for i in str(n))
+#     return n 
+# print(digital_root(942))
