@@ -118,3 +118,10 @@ import math
 #         n = sum(int(i) for i in str(n))
 #     return n 
 # print(digital_root(942))
+
+
+#sum of angles
+# def angle(n):
+#     return (n-2)*180
+# print(angle(3)) 
+# print(angle(4))
