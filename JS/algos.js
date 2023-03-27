@@ -115,3 +115,13 @@
 //     return (n-1) % 9 + 1
 // }
 // console.log(digitalRoot(942))
+
+
+//smart sum 
+function smartSum(){
+    const arr = Array.from(arguments).toString().split(",")
+    let sum = 0
+    for(const i in arr) sum += +arr[i]
+    return sum  
+}
+console.log(smartSum(1,2,3,[4,5],6))
