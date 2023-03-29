@@ -118,10 +118,24 @@
 
 
 //smart sum 
-function smartSum(){
-    const arr = Array.from(arguments).toString().split(",")
-    let sum = 0
-    for(const i in arr) sum += +arr[i]
-    return sum  
-}
-console.log(smartSum(1,2,3,[4,5],6))
+// function smartSum(){
+//     const arr = Array.from(arguments).toString().split(",")
+//     let sum = 0
+//     for(const i in arr) sum += +arr[i]
+//     return sum  
+// }
+// console.log(smartSum(1,2,3,[4,5],6))
+
+
+//remove parenthesis 
+// function removeParentheses(s){
+//     count = 0 
+//     res = ''
+//     for(i of s){
+//         if(i==='(') count += 1
+//         else if(i===')') count--
+//         else if(count===0) res += i
+//     }
+//     return res 
+// }
+// console.log(removeParentheses("example(unwanted thing)example"))

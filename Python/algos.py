@@ -1,4 +1,6 @@
+#IMPORTS
 import math 
+import re 
 
 #find nearest sq 
 # from math import * 
@@ -125,3 +127,16 @@ import math
 #     return (n-2)*180
 # print(angle(3)) 
 # print(angle(4))
+
+
+#remove the parenthesis 
+# def remove_parentheses(s):
+#     count = 0
+#     res = ''
+#     for i in s:
+#         if i=='(': count += 1
+#         elif i==')': count -= 1
+#         else:
+#             if count == 0: res += i 
+#     return res 
+# print(remove_parentheses("example(unwanted thing)example"))
