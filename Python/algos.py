@@ -140,3 +140,9 @@ import re
 #             if count == 0: res += i 
 #     return res 
 # print(remove_parentheses("example(unwanted thing)example"))
+
+
+#sum of even numbers
+# def sum_even_numbers(seq): 
+#     return sum(i for i in seq if not i%2)
+# print(sum_even_numbers([4, 3, 1, 2, 5, 10, 6, 7, 9, 8])) 
