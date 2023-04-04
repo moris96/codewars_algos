@@ -146,3 +146,14 @@ import re
 # def sum_even_numbers(seq): 
 #     return sum(i for i in seq if not i%2)
 # print(sum_even_numbers([4, 3, 1, 2, 5, 10, 6, 7, 9, 8])) 
+
+
+#valid parenthesis 
+# def valid_parentheses(paren_str):
+#     parents = dict(('()', '[]', '{}'))
+#     res = []
+#     for i in paren_str:
+#         if i in '([{': res.append(i)
+#         elif len(res) == 0 or i != parents[res.pop()]: return False 
+#     return len(res) == 0 
+# print(valid_parentheses("()")) 
