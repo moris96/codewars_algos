@@ -139,3 +139,11 @@
 //     return res 
 // }
 // console.log(removeParentheses("example(unwanted thing)example"))
+
+
+
+//returning strings (easy AF lol)
+// function greet(name){
+//     return `Hello, ${name} how are you doing today?`
+// }
+
