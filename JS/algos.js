@@ -147,3 +147,11 @@
 //     return `Hello, ${name} how are you doing today?`
 // }
 
+
+//create phone numbers
+// function createPhoneNumber(numbers){
+//     let num = '(xxx) xxx-xxxx';
+//     for (const i of numbers) num = num.replace('x', i)
+//     return num 
+// }
+// console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
