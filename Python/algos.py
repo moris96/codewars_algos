@@ -160,6 +160,16 @@ import re
 
 
 #create phone numbers
-def create_phone_number(n):
-    return '({}{}{}) {}{}{}-{}{}{}{}'.format(*n) 
-print(create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
+# def create_phone_number(n):
+#     return '({}{}{}) {}{}{}-{}{}{}{}'.format(*n) 
+# print(create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
+
+
+#fix my phone numbers
+# def is_it_a_num(s: str) -> str:
+#     realNum = ''
+#     for i in s:
+#         if i.isdigit(): realNum += i 
+#     if len(realNum) == 11 and str(realNum[0]) == '0': return realNum
+#     return "Not a phone number"
+# print(is_it_a_num('efRFS:)0207ERGQREG88349F82!'))
