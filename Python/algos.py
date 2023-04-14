@@ -173,3 +173,10 @@ import re
 #     if len(realNum) == 11 and str(realNum[0]) == '0': return realNum
 #     return "Not a phone number"
 # print(is_it_a_num('efRFS:)0207ERGQREG88349F82!'))
+
+
+#third angle of a triangle
+# def other_angle(a, b):
+#     return 180 - (a+b)
+
+
