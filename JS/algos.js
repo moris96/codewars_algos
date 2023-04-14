@@ -163,3 +163,16 @@
 // }
 
 
+//power of two 
+// function isPowerOfTwo(n){
+//     if(n===0) return false
+//     while(n!=1){
+//         if(n%2 != 0) return false
+//         n /= 2 
+//     }
+//     return true 
+// }
+// console.log(isPowerOfTwo(1024))
+// console.log(isPowerOfTwo(333))
+
+

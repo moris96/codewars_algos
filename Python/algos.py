@@ -180,3 +180,14 @@ import re
 #     return 180 - (a+b)
 
 
+#power of two
+# def power_of_two(x):
+#     if(x==0): return False
+#     while(x!=1):
+#         if(x%2 != 0): return False 
+#         x = x//2 
+#     return True 
+# print(power_of_two(1024)) 
+# print(power_of_two(333)) 
+
+
