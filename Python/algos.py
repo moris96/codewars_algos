@@ -191,3 +191,8 @@ import re
 # print(power_of_two(333)) 
 
 
+#remove first and last character from string
+# def remove_char(s):
+#     return s[1:][:-1]
+# print(remove_char('Hello'))
+
