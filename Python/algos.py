@@ -196,3 +196,10 @@ import re
 #     return s[1:][:-1]
 # print(remove_char('Hello'))
 
+
+#find the stray number 
+# def stray(arr):
+#     return [i for i in arr if arr.count(i)==1][0]
+# print(stray([17, 17, 3, 17, 17, 17, 17])) 
+
+
