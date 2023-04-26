@@ -203,3 +203,9 @@ import re
 # print(stray([17, 17, 3, 17, 17, 17, 17])) 
 
 
+#nth even number
+# def nth_even(n):
+#     return (n-1) * 2
+
+
+#
