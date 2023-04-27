@@ -212,3 +212,9 @@ import re
 # def shorten_to_date(long_date):
 #     return long_date.split(',')[0]
 # print(shorten_to_date("Friday May 2, 7pm")) 
+
+
+#double an integer ('you can't code under pressure #1') --easy AF lmao lol lol lol
+# def double_integer(i):
+#     return i*2
+
