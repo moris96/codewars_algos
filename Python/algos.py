@@ -231,7 +231,7 @@ import re
 # print(factorial(4)) 
 
 
-#roman numerals encoder 
+#roman numerals encoder (int to roman)
 # def solution(n):
 #     romans = {
 #         'M': 1000,
@@ -260,3 +260,22 @@ import re
 # print(solution(3))
 
 
+#roman numerals decoder (roman to int)
+# def solution(roman):
+#     nums = {
+#         'I': 1,
+#         'V': 5,
+#         'X': 10,
+#         'L': 50,
+#         'C': 100,
+#         'D': 500,
+#         'M': 1000,
+#     }
+#     res = 0
+#     for i in range(len(roman)):
+#         if i < len(roman) - 1 and nums[roman[i]] < nums[roman[i+1]]:
+#             res -= nums[roman[i]]
+#         else:
+#             res += nums[roman[i]]
+#     return res
+# print(solution('IV'))
