@@ -279,3 +279,10 @@ import re
 #             res += nums[roman[i]]
 #     return res
 # print(solution('IV'))
+
+
+#number of people in the bus 
+# def number(bus_stops):
+#     return sum([i[0] - i[1] for i in bus_stops])
+
+

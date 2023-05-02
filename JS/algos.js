@@ -228,3 +228,15 @@
 //     return res 
 // }
 // console.log(solution('IV')) 
+
+
+//number of people in the bus 
+// const number = (busStops) => {
+//     let people = 0 
+//     busStops.forEach((i) => {
+//         people += i[0] - i[1]
+//     });
+//     return people 
+// }
+
+
