@@ -286,3 +286,11 @@ import re
 #     return sum([i[0] - i[1] for i in bus_stops])
 
 
+#sum factorial
+# def fact(x):
+#     if x==1: return 1
+#     return x * fact(x-1)
+# def sum_factorial(lst):
+#     return sum(list(map(lambda x: fact(x), lst)))
+
+

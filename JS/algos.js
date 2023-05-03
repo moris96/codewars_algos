@@ -240,3 +240,14 @@
 // }
 
 
+//sum factorial
+// const fact = (x) => {
+//     return x===1 ? 1 : x * fact(x-1);
+// }
+// function sumFactorial(arr){
+//     let sum = 0 
+//     for(const i in arr) sum += fact(arr[i])
+//     return sum 
+// }
+
+
