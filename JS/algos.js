@@ -251,3 +251,12 @@
 // }
 
 
+//find multiples of a number
+// function findMultiples(integer, limit) {
+//     const multi = []
+//     for(let i=integer; i<=limit; i+=integer) multi.push(i)
+//     return multi
+// }
+// console.log(findMultiples(2,6))
+
+

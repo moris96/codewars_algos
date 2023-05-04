@@ -294,3 +294,9 @@ import re
 #     return sum(list(map(lambda x: fact(x), lst)))
 
 
+#find multiples of a number
+# def find_multiples(integer, limit):
+#     return list(range(integer, limit+1, integer))
+# print(find_multiples(2,6)) 
+
+
