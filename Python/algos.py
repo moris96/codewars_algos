@@ -300,3 +300,20 @@ import re
 # print(find_multiples(2,6)) 
 
 
+#fibonacci fizzbuzz
+# def fibs_fizz_buzz(n):
+#     res = []
+#     a, b = 0, 1
+#     for i in range(n):
+#         a, b = b, a + b
+#         if a % 15 == 0:
+#             res.append('FizzBuzz')
+#         elif a % 3 == 0:
+#             res.append('Fizz')
+#         elif a % 5 == 0:
+#             res.append('Buzz')
+#         else:
+#             res.append(a)
+#     return res
+# print(fibs_fizz_buzz(20))
+
