@@ -265,11 +265,36 @@
 //     const res = []
 //     let [a, b] = [0, 1]
 //     for (let i=0; i<n; i++){
-//       [a, b] = [b, a + b];
-//       res.push(a % 15 == 0 ? 'FizzBuzz' : a % 3 == 0 ? 'Fizz' : a % 5 == 0 ? 'Buzz' : a);
+//       [a, b] = [b, a + b]
+//       res.push(a % 15 == 0 ? 'FizzBuzz' : a % 3 == 0 ? 'Fizz' : a % 5 == 0 ? 'Buzz' : a)
 //     }
 //     return res;
 //   }
 // console.log(fibsFizzBuzz(20))
 
 
+//fizz buzz
+// function fizzbuzz(n){
+//     const res = []
+//     res.push(n % 15 == 0 ? 'FizzBuzz' : n % 3 == 0 ? 'Fizz' : n % 5 == 0 ? 'Buzz' : n)
+//     return res 
+// }
+
+// function fizzbuzz(n){
+//     console.log(
+//         Array.from({length: n}, (_,index) => index+1)
+//         .map(element => element%15==0 ? 'FizzBuzz' : 
+//         element%3==0 ? 'Fizz' :
+//         element%5==0 ? 'Buzz' :
+//         element)
+//     )
+// }
+
+const fizzbuzz = n => 
+    Array.from({length: n}, (_,index) => index+1)
+    .map(element => element%15==0 ? 'FizzBuzz' : 
+    element%3==0 ? 'Fizz' :
+    element%5==0 ? 'Buzz' : element)    
+
+
+console.log(fizzbuzz(10))
