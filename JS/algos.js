@@ -290,11 +290,11 @@
 //     )
 // }
 
-const fizzbuzz = n => 
-    Array.from({length: n}, (_,index) => index+1)
-    .map(element => element%15==0 ? 'FizzBuzz' : 
-    element%3==0 ? 'Fizz' :
-    element%5==0 ? 'Buzz' : element)    
+// const fizzbuzz = n => 
+//     Array.from({length: n}, (_,index) => index+1)
+//     .map(element => element%15==0 ? 'FizzBuzz' : 
+//     element%3==0 ? 'Fizz' :
+//     element%5==0 ? 'Buzz' : element)    
+// console.log(fizzbuzz(10))
 
 
-console.log(fizzbuzz(10))

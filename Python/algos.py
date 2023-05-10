@@ -318,3 +318,8 @@ import re
 # print(fibs_fizz_buzz(20))
 
 
+#5 without numbers
+# def unusual_five():
+#     return len('lmfao')
+
+
