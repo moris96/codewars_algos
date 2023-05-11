@@ -323,3 +323,9 @@ import re
 #     return len('lmfao')
 
 
+#reverse strings
+# def solution(string):
+#     return string[::-1]
+# print(solution('this is a string'))
+
+
