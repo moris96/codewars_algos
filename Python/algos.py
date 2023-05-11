@@ -329,3 +329,10 @@ import re
 # print(solution('this is a string'))
 
 
+#Find the index of the second occurrence of a letter in a string
+# def second_symbol(s, symbol):
+#     return s.find(symbol, s.find(symbol)+1)
+# print(second_symbol('Hello world!!!','l')) 
+
+
+
