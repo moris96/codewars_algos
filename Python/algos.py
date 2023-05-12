@@ -342,3 +342,22 @@ import re
 # print(sort_by_length(["Telescopes", "Glasses", "Eyes", "Monocles"]))
 
 
+
+#######multiplication table
+##my way:
+# def multiplication_table(size):
+#     for i in range(1,11):
+#         print(size, 'x', i, '=', size*i)
+##codewars way - stupider way cause it has to return arrays instead of the actual multiplication table lmao:
+# def multiplication_table(size):
+#     res = []
+#     for i in range(1, size+1):
+#         x = []
+#         for j in range(1, size+1):
+#             x.append(i*j)
+#         res.append(x)
+#     return res 
+# print(multiplication_table(5))
+
+
+
