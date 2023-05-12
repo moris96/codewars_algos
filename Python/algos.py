@@ -336,3 +336,9 @@ import re
 
 
 
+#sorted array by string length 
+# def sort_by_length(arr):
+#     return sorted(arr, key=lambda x: len(x))
+# print(sort_by_length(["Telescopes", "Glasses", "Eyes", "Monocles"]))
+
+
