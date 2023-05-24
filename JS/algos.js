@@ -306,8 +306,19 @@
 
 
 //sum of a sequence
-const sequenceSum = (begin, end, step) => {
-    let sum = 0 
-    for(let i=begin; i<=end; i+=step) sum += i 
-    return sum 
-}
+// const sequenceSum = (begin, end, step) => {
+//     let sum = 0 
+//     for(let i=begin; i<=end; i+=step) sum += i 
+//     return sum 
+// }
+
+
+//calculate average
+// function findAverage(array) {
+//     if(array.length===0) return 0 
+//     let res = 0
+//     for(let i=0; i<array.length; i++) res += array[i]
+//     return res/array.length 
+// }
+
+
