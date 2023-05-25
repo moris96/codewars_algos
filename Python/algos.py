@@ -368,3 +368,14 @@ import re
 
 
 
+#running out of space
+# def spacey(array):
+#     res = []
+#     temp = ''
+#     for i in array:
+#         temp += i 
+#         res.append(temp)
+#     return res 
+# print(spacey(['i', 'have','no','space']))
+
+
