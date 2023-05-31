@@ -322,3 +322,9 @@
 // }
 
 
+//index of an element in an array
+// function find(array, element){
+//     return array.indexOf(element) > -1 ? array.indexOf(element) : "Not found";
+// }
+
+
