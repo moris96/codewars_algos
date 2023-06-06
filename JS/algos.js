@@ -328,3 +328,17 @@
 // }
 
 
+//add big numbers
+// function add(a, b) {
+//     let res = ''
+//     let zero = 0
+//     a = a.split('')
+//     b = b.split('')
+//     while(a.length || b.length || zero){
+//         zero += ~~a.pop() + ~~b.pop()
+//         res = zero % 10 + res 
+//         zero = zero > 9 
+//     }
+//     return res 
+// }
+
