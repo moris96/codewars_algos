@@ -379,3 +379,19 @@ import re
 # print(spacey(['i', 'have','no','space']))
 
 
+
+#reverse a number
+# def reverse_number(n):
+#     rev = 0
+#     while(n>0):
+#         remainder = n%10
+#         rev = (rev*10)+remainder
+#         n = n//10
+#     return rev 
+def reverse_number(n):
+    nString = str(n)
+    if '-' in nString:
+        nString = nString[1:]
+        return int('-' + nString[::-1])
+    else: return int(nString[::-1])
+print(reverse_number(123))
