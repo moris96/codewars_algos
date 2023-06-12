@@ -388,10 +388,12 @@ import re
 #         rev = (rev*10)+remainder
 #         n = n//10
 #     return rev 
-def reverse_number(n):
-    nString = str(n)
-    if '-' in nString:
-        nString = nString[1:]
-        return int('-' + nString[::-1])
-    else: return int(nString[::-1])
-print(reverse_number(123))
+# def reverse_number(n):
+#     nString = str(n)
+#     if '-' in nString:
+#         nString = nString[1:]
+#         return int('-' + nString[::-1])
+#     else: return int(nString[::-1])
+# print(reverse_number(123))
+
+
