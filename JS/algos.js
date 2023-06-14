@@ -357,3 +357,11 @@
 // Calculator.divide = function(a,b){
 //     return (!b) ? false : a/b 
 // }
+
+
+//super duper easy lol lmao
+// function problem(x){
+//     return typeof(x)==='number' ? x * 50 + 6 : 'Error'
+// }
+
+
