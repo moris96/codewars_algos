@@ -366,8 +366,10 @@
 
 
 //is it a palindrome
-function isPalindrome(x) {
-    return x.split('').reverse().join('').toLowerCase() == x.toLowerCase()
-}
+// function isPalindrome(x) {
+//     return x.split('').reverse().join('').toLowerCase() == x.toLowerCase()
+// }
+// console.log(isPalindrome("A man, a plan, a canal–Panama"))
 
-console.log(isPalindrome("A man, a plan, a canal–Panama"))
+
+
