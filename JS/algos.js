@@ -373,3 +373,11 @@
 
 
 
+//sum of multiples
+// function sumMul(n,m){
+//     let res = 0
+//     for(let i=1; i*n<m; i++) res += i*n 
+//     return res > 0 ? res : 'INVALID'
+// }
+
+
