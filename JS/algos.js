@@ -381,3 +381,10 @@
 // }
 
 
+//sum of numbers digits
+// function sumDigits(number) {
+//     return Math.abs(number).toString().split('').reduce((total,next)=>total+Number(next),0)
+// }
+// console.log(sumDigits(99))
+
+
