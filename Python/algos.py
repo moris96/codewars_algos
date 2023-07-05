@@ -426,3 +426,11 @@ import re
 # print(even_or_odd(5)) 
 
 
+#reverse list order
+# def reverse_list(l):
+#     newL = l[::-1]
+#     return newL
+# print(reverse_list([1,2,3,4]))
+
+
+
