@@ -388,3 +388,10 @@
 // console.log(sumDigits(99))
 
 
+//power of four
+// function powerOf4(n) {
+//     return n>1?Number.isInteger(Math.log(n)/Math.log(4)):false
+// }
+// console.log(powerOf4(1024)) 
+
+
