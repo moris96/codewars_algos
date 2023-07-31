@@ -441,3 +441,11 @@ import re
 
 
 
+#miles per gallon to kilometers per liter
+# def converter(mpg):
+#     kpg = mpg * 1.609344 #kilometers per gallon 
+#     kpl = kpg / (4.54609188) #kilometers per liter 
+#     return round(kpl, 2)
+# print(converter(1)) 
+
+
