@@ -395,3 +395,14 @@
 // console.log(powerOf4(1024)) 
 
 
+//convert integer to binary
+// function toBinary(n){
+//     return n>=0 ? n.toString(2) : (~n).toString(2);
+// }
+// function toBinary(n){
+//     return parseInt(n).toString(2)
+// }
+// function toBinary(n){
+//     return (n >>> 0).toString(2)
+// }
+// console.log(toBinary(1))
