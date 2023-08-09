@@ -449,3 +449,21 @@ import re
 # print(converter(1)) 
 
 
+#next prime number
+# def next_prime(n):
+#     next = []
+#     isPrime = []
+#     for i in range(n+1,n+200):
+#         next.append(i)
+#     for j in next:
+#         val_is_prime = True
+#         for x in range(2,j-1):
+#             if j%x == 0:
+#                 val_is_prime = False
+#                 break 
+#             if val_is_prime:
+#                 isPrime.append(j)
+#     return min(isPrime)
+# print(next_prime(15))
+
+
