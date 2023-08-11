@@ -473,3 +473,10 @@ import re
 # print(to_binary(10))
 
 
+#filter the number
+def filter_string(string):
+    res = ''
+    for i in string:
+        if i.isdigit(): res = res + i 
+    return int(res)
+print(filter_string('hello world 69'))
