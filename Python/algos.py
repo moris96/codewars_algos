@@ -474,9 +474,17 @@ import re
 
 
 #filter the number
-def filter_string(string):
-    res = ''
-    for i in string:
-        if i.isdigit(): res = res + i 
-    return int(res)
-print(filter_string('hello world 69'))
+# def filter_string(string):
+#     res = ''
+#     for i in string:
+#         if i.isdigit(): res = res + i 
+#     return int(res)
+# print(filter_string('hello world 69'))
+
+
+#remove duplicates from list
+# def distinct(seq):
+#     return [seq[i] for i in range(len(seq)) if i == seq.index(seq[i])]
+# print(distinct([1,1,2]))
+
+
