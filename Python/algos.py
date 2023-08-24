@@ -488,3 +488,13 @@ import re
 # print(distinct([1,1,2]))
 
 
+#RGB to hex conversion 
+# def rgb(r, g, b):
+#     # return "{:02x}{:02x}{:02x}".format(r,g,b).upper().zfill(2)
+#     res = ""
+#     for i in(r,g,b):
+#         res += hex(max(0, min(255,i)))[2:].upper().zfill(2)
+#     return res 
+# print(rgb(255, 255, 255))
+
+
