@@ -421,3 +421,14 @@
 // }
 
 
+//cpnvert 12 hour time to 24 hour time
+// function to24hourtime(hour, minute, period) {
+//     if(hour===12 && period==='am') hour = 0
+//     else if(period==="pm" && hour<12) hour += 12 
+//     if(hour<10) hour='0' + hour 
+//     if(minute<10) minute='0' + minute
+//     return `${hour}${minute}`
+// }
+
+
+
