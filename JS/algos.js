@@ -432,3 +432,14 @@
 
 
 
+//down with arrow numbers
+// function getADownArrowOf(n) { 
+//     const res =  Array.from({length: n}, (_, i) => {   
+//         const arr = Array.from({length: i}, (v, j) => (j + 1) % 10);
+//     return ' '.repeat(n - i - 1) + arr.join('') + (i + 1) % 10 + arr.reverse().join('');
+//   }).reverse();
+//   return res.join('\n');
+// }
+// console.log(getADownArrowOf(11))
+
+
