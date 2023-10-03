@@ -521,18 +521,30 @@ import re
 
 
 #sum powers of 2
-def powers(n):
-    bina = bin(n)
-    res = []
-    for i, j in enumerate(bina.split('b')[1][::-1]):
-        print(j)
-        if j == '1':
-            res.append(2**i)
-    return res 
+# def powers(n):
+#     bina = bin(n)
+#     res = []
+#     for i, j in enumerate(bina.split('b')[1][::-1]):
+#         print(j)
+#         if j == '1':
+#             res.append(2**i)
+#     return res 
 
 
-#largest power
-def largest_power(N):
-    return math.ceil(math.log10(N) / math.log10(3)) - 1
+# #largest power
+# def largest_power(N):
+#     return math.ceil(math.log10(N) / math.log10(3)) - 1
+# print(largest_power(4))
 
-print(largest_power(4))
+
+
+#fake binary
+# def fake_bin(x):
+#     res = ''
+#     nums = x 
+#     for i in nums:
+#         if int(i) >= 5: res += '1'
+#         if int(i) < 5: res += '0'
+#     return res 
+
+
