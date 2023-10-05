@@ -550,9 +550,18 @@ import re
 
 
 #next palindromic number
-def next_pal(val):
-    while True:
-        val += 1
-        if str(val) == str(val)[::-1]: return val 
+# def next_pal(val):
+#     while True:
+#         val += 1
+#         if str(val) == str(val)[::-1]: return val 
+# print(next_pal(11))
 
-print(next_pal(11)) #22 
+
+
+#is palindrome
+# def is_palindrome(s):
+#     return s[::-1].lower() == s.lower()
+# print(is_palindrome("racecar"))
+
+
+
