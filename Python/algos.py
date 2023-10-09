@@ -565,3 +565,10 @@ import re
 
 
 
+#Down Arrow With Numbers
+def get_a_down_arrow_of(n):
+    res = ["".join([str((j + 1) % 10) for j in range(i)]) for i in range(n)]
+    res = [' ' * (n - i - 1) + arr + str((i + 1) % 10) + arr[::-1] for i, arr in enumerate(res)]
+    res = res[::-1]
+    return '\n'.join(res)
+print(get_a_down_arrow_of(5))
