@@ -443,3 +443,16 @@
 // console.log(getADownArrowOf(11))
 
 
+
+//fake binary number
+// function fakeBin(x){
+//     let res = ''
+//     let nums = x 
+//     for(i in nums){
+//         if(parseInt(nums[i]) >= 5) res += '1'
+//         if(parseInt(nums[i]) < 5) res += '0'
+//     }
+//     return res 
+// }
+
+
