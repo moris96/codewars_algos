@@ -463,3 +463,25 @@
 // console.log(evenOrOdd(6))
 
 
+//uglify word
+// function uglifyWord(s) {
+//     var s = Array.from(s.toLowerCase())
+//     let res = 1
+//     for (let i = 0; i < s.length; i++) {
+//         if (s[i].match(/[a-z]/i)) {
+//             if (res === 1) {
+//                 s[i] = s[i].toUpperCase()
+//                 res = 0
+//             } else {
+//                 s[i] = s[i].toLowerCase()
+//                 res = 1
+//             }
+//         } else {
+//             res = 1
+//         }
+//     }
+//     return s.join('')
+// };
+// console.log(uglifyWord('aaa'))
+
+

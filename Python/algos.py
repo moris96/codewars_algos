@@ -574,3 +574,22 @@ import re
 # print(get_a_down_arrow_of(5))
 
 
+#uglify word
+# def uglify_word(s):
+#     s = list(s.lower())
+#     res = 1
+#     for i in range(len(s)):
+#         if s[i].isalpha():
+#             if res == 1:
+#                 s[i] = s[i].upper()
+#                 res = 0
+#             else:
+#                 s[i] = s[i].lower()
+#                 res = 1
+#         else:
+#             res = 1
+#     return ''.join(s)
+# print(uglify_word('aaa'))
+
+
+
