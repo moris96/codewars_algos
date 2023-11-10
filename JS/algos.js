@@ -516,3 +516,13 @@
 
 
 
+//sorting dictionaries
+// function sortDict(dict) {
+//     return Object.entries(dict)
+//     .sort((a,b) => b[1] - a[1])
+//     .map(([k,v]) => [k,v])
+// };
+// console.log(sortDict({3:1, 2:2, 1:3}))
+
+
+

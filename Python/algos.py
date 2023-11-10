@@ -600,3 +600,9 @@ import re
 
 
 
+#sorting dictionaries
+# def sort_dict(d):
+#     return sorted([(k,v) for k,v in d.items()], reverse=True, key=lambda x: x[1])
+# print(sort_dict({3:1, 2:2, 1:3}))
+
+
