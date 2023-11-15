@@ -526,3 +526,20 @@
 
 
 
+//sexy primes
+// const isPrime = (n) => {
+//     const sqr = Math.sqrt(n)
+//     for(let i=2; i<=parseInt(sqr); i++){
+//         if(n%i===0) return false
+//     }
+//     return n !== 1
+// };
+
+// function sexy_prime(x, y) {
+//     return isPrime(x) && isPrime(y) && (x - y === 6 || y - x === 6) ? true : false;
+// };
+
+// console.log(sexy_prime(5,11))
+
+
+

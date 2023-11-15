@@ -606,3 +606,19 @@ import re
 # print(sort_dict({3:1, 2:2, 1:3}))
 
 
+#sexy primes
+# def isPrime(n):
+#     sqr = math.sqrt(n)
+#     for i in range(2, int(sqr) + 1):
+#         if n%i == 0:
+#             return False 
+#     return n != 1
+
+# def sexy_prime(x, y):
+#     if isPrime(x) and isPrime(y) and (x-y==6 or y-x==6):
+#         return True 
+#     return False 
+# print(sexy_prime(5,11)) 
+
+
+
