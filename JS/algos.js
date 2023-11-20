@@ -543,3 +543,9 @@
 
 
 
+//counting duplicates
+// function duplicateCount(text){
+//     return [...new Set(text.toLowerCase())].filter(i => text.toLowerCase().split(i).length - 1 > 1).length;
+// };
+
+
