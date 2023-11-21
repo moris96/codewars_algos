@@ -1,6 +1,7 @@
 #IMPORTS
 import math 
 import re 
+import random
 
 #find nearest sq 
 # from math import * 
@@ -629,3 +630,34 @@ import re
 
 
 
+#good vs evil (most fun algo)
+# goods = [
+#     1, #hobbits
+#     2, #men
+#     3, #elves
+#     3, #dwarves
+#     4, #eagles
+#     10, #wizards
+# ]
+# evils = [
+#     1, #orcs
+#     2, #men
+#     2, #wargs,
+#     2, #goblins
+#     3, #urukhai
+#     5, #trolls
+#     10, #wizards
+# ]
+# def worthCalculate(force, points):
+#     res = 0
+#     for i, j in enumerate(points.split(' ')):
+#         if force == 'good': res += goods[i] * int(j)
+#         else: res += evils[i] * int(j)
+#     return res 
+
+# def good_vs_evil(good, evil):
+#     goodsTotal = worthCalculate(good, 'good')
+#     evilsTotal = worthCalculate(evil, 'evil')
+#     if evilsTotal > goodsTotal: return 'Battle Results: Evil eradicates all trace of Good'
+#     elif goodsTotal > evilsTotal: return 'Battle Result: Good triumphs over Evil'
+#     else: 'Battle Result: No victor on this battle field'
