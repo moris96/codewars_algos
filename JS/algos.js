@@ -549,3 +549,20 @@
 // };
 
 
+
+//total amount of points
+// function points(games) {
+//     const res = []
+//     games.forEach((gameElement) => {
+//         const game = gameElement.split(':')
+//         if(parseInt(game[0]) > parseInt(game[1])){
+//             res.push(3)
+//         } else if (parseInt(game[0]) === parseInt(game[1])){
+//             res.push(1)
+//         }
+//     }); 
+//     return res.reduce((a,b) => a + b, 0)
+// }
+
+
+

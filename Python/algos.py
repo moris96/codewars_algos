@@ -661,3 +661,20 @@ import random
 #     if evilsTotal > goodsTotal: return 'Battle Results: Evil eradicates all trace of Good'
 #     elif goodsTotal > evilsTotal: return 'Battle Result: Good triumphs over Evil'
 #     else: 'Battle Result: No victor on this battle field'
+
+
+
+
+#total amount of points
+# def points(games):
+#     res = []
+#     for gameElement in games:
+#         game = gameElement.split(':')
+#         if int(game[0]) > int(game[1]):
+#             res.append(3)
+#         elif int(game[0]) == int(game[1]):
+#             res.append(1)
+#     return sum(res)
+
+
+
