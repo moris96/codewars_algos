@@ -678,3 +678,21 @@ import random
 
 
 
+#is it a number?
+# def is_digit(s):
+#     try: 
+#         float(s)
+#         return True 
+#     except ValueError:
+#         return False 
+
+
+#     # if int(s) == s.isnumeric(): return True 
+
+#     # # s.isnumeric() == True: return True 
+#     # else: return False 
+
+# print(is_digit("-3.23"))
+
+
+
