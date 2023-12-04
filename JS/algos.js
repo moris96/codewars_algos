@@ -572,3 +572,15 @@
 // };
 
 
+
+// what century is it?
+// function whatCentury(year) {
+//     const century = String(Math.floor((parseInt(year) + 99) / 100));
+//     if (century.endsWith('1') && century !== '11') return century + 'st';
+//     if (century.endsWith('2') && century !== '12') return century + 'nd';
+//     if (century.endsWith('3') && century !== '13') return century + 'rd';
+//     return `${century}th`;
+// }
+
+
+
