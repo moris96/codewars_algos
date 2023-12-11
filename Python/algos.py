@@ -707,3 +707,12 @@ import random
 
 
 
+#remove the minimum 
+# def remove_smallest(numbers):
+#     if len(numbers)<1: return numbers
+#     else: numbers.remove(min(numbers))
+#     return numbers 
+# print(remove_smallest([1,2,3,4,5]))
+
+
+

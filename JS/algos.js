@@ -584,3 +584,13 @@
 
 
 
+//remove the minimum number from array
+// function removeSmallest(numbers) {
+//     if (numbers.length < 1) {
+//         return numbers;
+//     }
+//     numbers.splice(numbers.indexOf(Math.min(...numbers)), 1);
+//     return numbers;
+// }
+
+
