@@ -716,3 +716,6 @@ import random
 
 
 
+# Sum without highest and lowest number
+def sum_array(arr):
+    return 0 if arr is None or len(arr)<3 else sum(arr) - max(arr) - min(arr)
