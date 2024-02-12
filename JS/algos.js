@@ -594,3 +594,10 @@
 // }
 
 
+// convert number to string
+// function numberToString(num) {
+//     return num.toString()
+// };
+// console.log(numberToString(123))
+
+
